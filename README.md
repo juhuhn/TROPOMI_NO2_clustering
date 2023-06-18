@@ -36,4 +36,11 @@ The used data are listed below.
     For the temporal validation, the RWI/ISL Container Throughput Input Index is used. They are available in Microsoft Excel format.
     
     - It is available from the webpage of Institute of Shipping Economics and Logistics: [RWI/ISL Container Throughput Input Index: Revival of global trade](https://www.isl.org/en/containerindex/april-2023).
-    - One does not need to download the file in the local, since it is directly fetched by the notebook file while running using the downloadable link provided by the webpage.
+    - One does not need to download the file in the local, since it is directly fetched by the notebook file while running using the downloadable link provided by the webpage.    
+    
+## Outputs
+Notebook file contains the corresponding outputs in line. In summary, the notebook displays:
+
+1. Plots from base & mask map, NO2 data contour map to spatially processed clustered NO2 data contour map.
+2. Plots and quantifications from statistical analyses.
+3. Plots and quantifications from spatial and temporal validation.

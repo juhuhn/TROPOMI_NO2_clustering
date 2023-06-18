@@ -16,6 +16,7 @@ Before running the notebook, one needs to download the [TROPOMI NO2 column densi
 The used data are listed below.
 
 1. TROPOMI NO2 data
+
     For the regridded TROPOMI NO2 dataset, please refer to the following link: [TROPOMI NO2 column density dataset](https://data.4tu.nl/articles/_/16943725).
    
     - The dataset contains the processed data of open-source level-2 TROPOMI NO2 measurements on the Mediterranean Sea area, the Red Sea, and the Indian Ocean, publicly available via the Copernicus S5P hub (https://s5phub.copernicus.eu) and retrieved by TROPOspheric Monitoring Instrument (TROPOMI) on board the Copernicus Sentinel-5 Precursor satellite.
@@ -24,6 +25,7 @@ The used data are listed below.
     - Each variable is constructed in three dimensions: Time; Latitude; Longitude.
 
 2. Ship track count data
+
     For the spatial validation, normarlized ship track count data is used. The original ship track count data is published by Halpern et al. Spatial and temporal changes in cumulative human impacts on the world’s ocean spatial validation, *Nature Communications* **2015**, *6*, 7615. [https://doi.org/10.1038/ncomms8615](https://doi.org/10.1038/ncomms8615)
     
 3.

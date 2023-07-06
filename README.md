@@ -1,5 +1,6 @@
 # TROPOMI_NO2_clustering
 
+This repository contains notebook implementations of the original paper: "A Systematic Approach to Identify Shipping Emissions Using Spatio-Temporally Resolved TROPOMI Data"
 [![DOI](https://doi.org/XXXX)](https://doi.org/XXXX)
 
 Jupyter Notebook containing Python codes and results for TROPOMI NO2 clustering.

@@ -1,20 +1,19 @@
 # TROPOMI_NO2_clustering
 
-[![DOI](https://doi.org/XXXX)](https://doi.org/XXXX)
-This repository contains notebook implementations of the original paper: "A Systematic Approach to Identify Shipping Emissions Using Spatio-Temporally Resolved TROPOMI Data"
+This repository contains notebook implementations of the original paper: "A Systematic Approach to Identify Shipping Emissions Using Spatio-Temporally Resolved TROPOMI Data"; [https://doi.org/XXXX](https://doi.org/XXXX).
 
 Jupyter Notebook containing Python codes and results for TROPOMI NO2 clustering.
-It is an end-to-end notebook with demonstration of the spatio-temporal data preprocessing and clustering on TROPOMI NO2 measurement.
+It is an end-to-end notebook with a demonstration of the spatio-temporal data preprocessing and clustering on TROPOMI NO2 measurement.
 For brevity of presentation, the notebook displays the analysis result tested on the Red Sea region.
 
 ## Preliminary
-Before running the notebook, one needs to download the [TROPOMI NO2 column density dataset](https://data.4tu.nl/articles/_/16943725).
+Before running the notebook, one needs to download the TROPOMI NO2 column density dataset; [doi:10.4121/16943725](https://doi.org/10.4121/16943725).
 
 ## Schematic representation
 ![schematic representation](scheme.png)
 
 ## Input Data
-The used data are listed below.
+The notebook file requires the input data listed below:
 
 1. Regional NO2 vertical / slant column density
 
@@ -31,18 +30,18 @@ The used data are listed below.
     In this study, ship track count data is used for spatial validation. They are available in NumPy array file format.
     
     - The original ship track count data is published by Halpern et al. Spatial and temporal changes in cumulative human impacts on the world’s ocean spatial validation, *Nature Communications* **2015**, *6*, 7615. [https://doi.org/10.1038/ncomms8615](https://doi.org/10.1038/ncomms8615)
-    - The original ship track count data freely available at [doi:10.5063/F19Z92TW](https://doi.org/10.5063/F19Z92TW).
+    - The original ship track count data is freely available at [doi:10.5063/F19Z92TW](https://doi.org/10.5063/F19Z92TW).
     - Regridded ship track count data are stored in NumPy array and separately stored per test region (the Mediterranean Sea area, the Red Sea, and the Indian Ocean).
 
 3. Economic index
     
     In this study, the Global Container Throughput Input Index is used for the temporal validation. They are available in Microsoft Excel format, published by  the Leibniz-Institut für Wirtschaftsforschung and the Institute of Shipping Economics and Logistics (RWI/ISL).
     
-    - It is available from the webpage of Institute of Shipping Economics and Logistics: [RWI/ISL Container Throughput Input Index: Revival of global trade](https://www.isl.org/en/containerindex/april-2023).
-    - One does not need to download the file in the local, since it is directly fetched by the notebook file while running using the downloadable link provided by the webpage.    
+    - It is freely available from the webpage of the Institute of Shipping Economics and Logistics: [RWI/ISL Container Throughput Input Index: Revival of global trade](https://www.isl.org/en/containerindex/april-2023).
+    - One does not need to download the file manually since it is directly fetched by the notebook file while running using the downloadable link provided by the webpage.    
     
 ## Outputs
-Notebook file contains the corresponding outputs in line. In summary, the notebook displays:
+The notebook file contains the corresponding outputs in line. In summary, the notebook displays:
 
 1. Plots from base & mask map, NO2 data contour map to spatially processed clustered NO2 data contour map.
 2. Plots and quantifications from statistical analyses.

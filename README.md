@@ -30,6 +30,7 @@ The used data are listed below.
     In this study, ship track count data is used for spatial validation. They are available in NumPy array file format.
     
     - The original ship track count data is published by Halpern et al. Spatial and temporal changes in cumulative human impacts on the world’s ocean spatial validation, *Nature Communications* **2015**, *6*, 7615. [https://doi.org/10.1038/ncomms8615](https://doi.org/10.1038/ncomms8615)
+    - The original ship track count data freely available at [doi:10.5063/F19Z92TW](https://doi.org/10.5063/F19Z92TW).
     - Regridded ship track count data are stored in NumPy array and separately stored per test region (the Mediterranean Sea area, the Red Sea, and the Indian Ocean).
 
 3. Economic index

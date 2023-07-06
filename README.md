@@ -37,7 +37,7 @@ The notebook file requires the input data listed below:
     
     In this study, the Global Container Throughput Input Index is used for the temporal validation. They are available in Microsoft Excel format, published by  the Leibniz-Institut für Wirtschaftsforschung and the Institute of Shipping Economics and Logistics (RWI/ISL).
     
-    - It is freely available from the webpage of the Institute of Shipping Economics and Logistics: [RWI/ISL Container Throughput Input Index](https://www.isl.org/en/containerindex/april-2023).
+    - It is freely available from the webpage of the Institute of Shipping Economics and Logistics: [https://www.isl.org/en/containerindex/april-2023](https://www.isl.org/en/containerindex/april-2023).
     - One does not need to download the file manually since it is directly fetched by the notebook file while running using the downloadable link provided by the webpage.    
     
 ## Outputs

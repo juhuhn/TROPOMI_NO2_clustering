@@ -5,6 +5,7 @@ This repository contains notebook implementations of the original paper: "A Syst
 Jupyter Notebook containing Python codes and results for TROPOMI NO2 clustering.
 It is an end-to-end notebook with a demonstration of the spatio-temporal data preprocessing and clustering on TROPOMI NO2 measurement.
 For brevity of presentation, the notebook displays the analysis result tested on the Red Sea region.
+To test on other regions, please change corresponding filenames (e.g. netCDF, NumPy array) from RedSea into other regions (e.g. Medit, India).
 
 ## Preliminary
 Before running the notebook, one needs to download the TROPOMI NO2 column density dataset; [doi:10.4121/16943725](https://doi.org/10.4121/16943725).
